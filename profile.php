@@ -60,7 +60,7 @@ if (mysqli_query($conn, $sql)){
 
 else {
   echo "Error: " . $sql . "<br>" . mysqli_error($conn);
-}
+  echo "my name: " . $sql . "<br>" . mysqli_error($conn);
 
 }
 
